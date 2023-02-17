@@ -1,4 +1,4 @@
-#Spam Classifier
+# Spam Classifier
 
 This program is a spam classification tool that uses machine learning algorithms to detect spam emails.
 The program takes in a dataset of emails and uses a variety of text normalization and machine learning

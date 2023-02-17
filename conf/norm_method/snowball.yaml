@@ -1,0 +1,3 @@
+_target_: nltk.stem.snowball.SnowballStemmer
+language: english
+ignore_stopwords: True

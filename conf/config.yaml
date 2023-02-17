@@ -1,0 +1,7 @@
+defaults:
+  - norm_method: porter
+  - algorithm: decision_tree
+
+
+test_size: 0.33
+random_state: 42
