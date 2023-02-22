@@ -94,7 +94,7 @@ def my_app(cfg : DictConfig) -> None:
     print(OmegaConf.to_yaml(cfg))
     config_dict = OmegaConf.to_container(cfg, resolve=True)
     wandb.init(project="spam-classification", config=config_dict)
-    df = pd.read_csv('/mnt/c/Users/Admin/OneDrive/Desktop/Projects/spam classifier/email_data.csv')
+    df = pd.read_csv('email_data.csv')
     df.drop(['Unnamed: 2','Unnamed: 3','Unnamed: 4'],axis=1,inplace=True)
     spam_obj = spam_classifier(df, cfg)
     spam_obj.model_training()
